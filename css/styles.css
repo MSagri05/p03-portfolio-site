@@ -1,0 +1,56 @@
+/* =============== Base Styles =============== */
+
+body {
+    font-family: 'Forum', serif;
+    background-color: #f9f9f9;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* =============== Header Styles =============== */
+
+.main-header {
+    background-color: rgba(249, 249, 249, 0.95);
+    border-bottom: 1px solid #d9d9d9;
+}
+
+/* =============== Logo =============== */
+
+.logo {
+    margin: 0;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* =============== Navigation Styles =============== */
+
+.main-nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.1rem;
+    transition: all 0.2s ease;
+}
+
+.main-nav a:hover {
+    color: #666;
+    font-style: italic;
+}
+
+.main-nav a:active {
+    color: #444;
+    text-decoration: line-through;
+}
+
+.main-nav a.active {
+    font-style: italic;
+}
+
+/* =============== HERO Section =============== */
+
